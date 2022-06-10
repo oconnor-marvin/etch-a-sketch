@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    font-family: 'Rock Salt', cursive;
+    background-color: #CDF0EA;
+    
+}
+
+.title-container{
+    display: flex;
+    font-size: 10px;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(135deg, #F6C6EA 20%, #FAF4B7 80%);
+    width: 100%
+}
+
+.title-container img{
+    height: 60px;
+    padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #F6C6EA;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.tool-selector{
+    background-color: #FAF4B7;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 8px 12px rgba(0,0,0,.3);
+    height: 9cm;
+}
+
+.colour-table{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 200px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h4{
+    background-color: rgba(205, 240, 234, .7);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.3);
+}
+
+.colour{
+    font-size: 10px;
+    background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
+
+.colour:hover{
+    border: solid white 3px;
+    transform: scale(1.15);
+    box-shadow: 3px 3px 5px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.colour.active{
+    border: solid white 4px;
+}
+
+.colour.colour:hover{
+    transform: none;
+}
+
+.btn{
+    background: linear-gradient(135deg, #CDF0EA 3%, #F6C6EA 97%);
+    border: none;
+    font-family: 'Rock Salt', cursive;
+    width: 80px;
+    height: 30px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.3);
+    font-size: 10px;
+    border-radius: 4px;
+
+}
+
+.btn:hover{
+    background: linear-gradient(135deg, #CDF0EA 70%, #F6C6EA 100%);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.btn.active{
+    border: solid #CDF0EA;
+    background: #F9F9F9;
+}
+
+.sketch-area{
+    background-color: #F9F9F9;
+    border: solid #CDF0EA 10px;
+    width: 10cm;
+    height: 10cm;
+    margin: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 6px 6px 10px rgba(0,0,0,.3);
+}
+
+.sketch-box{
+    background-color: #F9F9F9;
+    width: 10%;
+    height: 10%;
+    border: none;
+}
+
+.sketch-box:hover{
+    border: solid lightgray;
+    opacity: .9;
+}
+.sketch-box.active:hover{
+    opacity: 1;
+}
+
+.colour.red{
+    background-color: red;
+}
+.colour.black{
+    background-color: black;
+}
+.colour.blue{
+    background-color: blue;
+}
+.colour.green{
+    background-color: green;
+}
+.colour.pink{
+    background-color: pink;
+}
+.colour.orange{
+    background-color: orange;
+}
+.colour.purple{
+    background-color: purple;
+}
+.colour.white{
+    background-color: white;
+}
+.colour.yellow{
+    background-color: yellow;
+}
